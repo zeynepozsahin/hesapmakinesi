@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+    
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url(Arkaplan.jpg); /* Resmin URL'sini buraya ekleyin */
+    background-size: cover; /* Resmin boyutunu ayarlar */
+    background-position: center; /* Resmin konumunu ayarlar */
+    background-repeat: no-repeat; /* Resmin tekrar etmemesini sağlar */
+}
+
+.calculator {
+    border: 4px solid white;
+    background-color: #333;
+    padding: 23px;
+    display: inline-block;
+    background-image: url(Arkaplan.jpg); /* Resmin URL'sini buraya ekleyin */
+    background-size: cover; /* Resmin boyutunu ayarlar */
+    background-position: center; /* Resmin konumunu ayarlar */
+}
+
+
+h1{
+    border: 2px double #3610b3;
+    background-color: #760606;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+    height: auto;
+    width: 520px;
+    text-align: center;
+}
+
+.container {
+    margin-top: 23px;
+}
+
+table {
+    margin: auto;
+}
+
+input {
+    text-align: right;
+    border: 5px solid ;
+    font-size: 34px;
+    width: 456px;
+    height: 65px;
+}
+
+button {
+    font-size: 60px;
+    background: #18b434;
+    border: 10px solid rgb(167, 25, 145);
+    color: rgb(26, 21, 112);
+    width: 102px;
+    height: 90px;
+    margin: 6px;
+}
+
+.calculator {
+    border: 4px solid rgb(255, 255, 255);
+    background-color: #760606;
+    padding: 23px;
+    display: inline-block;
+}
+
+h1 {
+    font-size: 28px;
+}
